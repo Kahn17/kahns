@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--html的文件声明,有四种,一种是HTML5 一种是HTML4.01下的strict(包含所有元素和属性但不包括展示型或者启用的元素,不允许框架集)/frameset(允许框架集和废弃元素)/transitional(允许废弃元素)-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--viewport标签用于控制移动端的饰扣尺寸和比例 width控制视口的宽度,也可以设置成device-width这样的特殊值来指代比例100%时 initial-scale属性控制页面最初加载是的缩放等级.Maximum-scale minimum-scale user-scalb-->
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<i>sss</i>
+</body>
+</html>
+<!--1.html文件开头的doctype有什么作用:让浏览器知道页面是用哪个版本的HTML进行编写
+    2.如何理解盒模型:盒模型由里到外由content paddding border margin组成 content是主体内容区,padding是内边距,border是边框 马日进是外边距
+    3.常见inline元素,block元素和inlineblock元素有哪些,他们之间有什么区别
+    常见的inline元素有a br i em label
+    inlineblock: img input
+    block:div p h1 ol il
+    inline元素即行内元素,多个行内元素会在水平上堆叠直到空间不够要换行,其宽度随着元素的内容而变化
+    inline元素设置不能高宽
+    只能设置水平方向的边距
+    4.inlinehe inline-block元素之间的边距问题
+    父元素设置font-size:0 子元素重新设置
+    或者删除HTML文件中inline-block元素之间的空格和空行
+    inline-block元素的垂直居中
+        1.设置上下padding相等
+        2. vertical-align:middle
+        3.line-height大于或者等于font-size
+    block是块状元素 文档流中独占一行
+    viewport的意义,使得网页兼容移动端
+-->
